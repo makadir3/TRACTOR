@@ -1,0 +1,6 @@
+$ uv pip install --python .venv/bin/python pypdf pandas numpy scikit-learn openpyxl matplotlib seaborn torch
+error: Failed to fetch: `https://pypi.org/simple/torch/`
+  Caused by: Request failed after 3 retries
+  Caused by: error sending request for url (https://pypi.org/simple/torch/)
+  Caused by: client error (Connect)
+  Caused by: tunnel error: unsuccessful

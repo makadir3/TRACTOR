@@ -1,0 +1,4 @@
+$ python -m compileall -q python traffic_gen.py run_xapp.py run_xapp_IMPACT.py xapp_control.py
+python/visual_xapp_inference.py:20: SyntaxWarning: "\d" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\d"? A raw string is also an option.
+  return [ atoi(c) for c in re.split('(\d+)',text) ]
+exit=0
