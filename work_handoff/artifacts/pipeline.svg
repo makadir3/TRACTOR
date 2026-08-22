@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<style>.b{fill:#eef5ff;stroke:#245;stroke-width:2}.t{font:18px sans-serif;fill:#123}.s{font:14px sans-serif;fill:#345}.a{stroke:#2670b8;stroke-width:4;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2670b8"/></marker></defs>
+<text x="30" y="35" class="t">TRACTOR: privacy-preserving traffic-to-slice classification</text>
+<g transform="translate(30,80)"><rect class="b" width="180" height="150" rx="12"/><text class="t" x="20" y="38">Phone capture</text><text class="s" x="20" y="68">timestamp • size</text><text class="s" x="20" y="90">direction • label</text><text class="s" x="20" y="120">payload discarded</text></g>
+<line class="a" x1="215" y1="155" x2="265" y2="155"/>
+<g transform="translate(270,80)"><rect class="b" width="190" height="150" rx="12"/><text class="t" x="18" y="38">UDP replay</text><text class="s" x="18" y="68">UE ↔ gNB</text><text class="s" x="18" y="90">Colosseum/SCOPE</text><text class="s" x="18" y="120">random payload</text></g>
+<line class="a" x1="465" y1="155" x2="515" y2="155"/>
+<g transform="translate(520,80)"><rect class="b" width="190" height="150" rx="12"/><text class="t" x="18" y="38">gNB KPIs</text><text class="s" x="18" y="68">17 retained features</text><text class="s" x="18" y="90">sampled every 250 ms</text><text class="s" x="18" y="120">E2 → near-RT RIC</text></g>
+<line class="a" x1="715" y1="155" x2="765" y2="155"/>
+<g transform="translate(770,80)"><rect class="b" width="190" height="150" rx="12"/><text class="t" x="18" y="38">CNN xApp</text><text class="s" x="18" y="68">T × 17 window</text><text class="s" x="18" y="90">20 filters (4 × 1)</text><text class="s" x="18" y="120">FC 512 → 4</text></g>
+<line class="a" x1="965" y1="155" x2="1015" y2="155"/>
+<g transform="translate(1020,80)"><rect class="b" width="150" height="150" rx="12"/><text class="t" x="15" y="38">Slice label</text><text class="s" x="15" y="68">eMBB</text><text class="s" x="15" y="90">mMTC • URLLC</text><text class="s" x="15" y="112">ctrl / idle</text></g>
+<text class="s" x="30" y="290">Window history: T = 4, 8, 16, 32, 64 reports = 1, 2, 4, 8, 16 seconds. A new overlapping decision is possible every 250 ms.</text>
+<text class="s" x="30" y="320">Reproduction status: architecture/data/assets verified; published offline and online accuracies not numerically reproduced in this environment.</text>
+</svg>
